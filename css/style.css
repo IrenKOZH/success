@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+.img {
+}
+
+.title {
+  color: #6b68ec;
+  font-size: 95px;
+  font-weight: 800;
+}
+
+.text {
+  color: #484855;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.click {
+  border-radius: 30px;
+  background: #1c1c25;
+  color: #ffffff;
+  padding: 35px 100px;
+  display: inline-block;
+  text-decoration: none;
+}
