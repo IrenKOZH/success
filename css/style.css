@@ -5,26 +5,58 @@ body {
   font-weight: 400;
 }
 
-.img {
+.image {
+  margin-top: 90px;
 }
 
 .title {
   color: #6b68ec;
   font-size: 95px;
   font-weight: 800;
+  margin: 24px 0 15px;
 }
 
 .text {
   color: #484855;
   font-size: 22px;
   font-weight: 600;
+  margin: 0 0;
+  line-height: 1.8;
 }
 
 .click {
+  --bg: #1c1c25;
+  --hover-bg: #6b68ec;
+
   border-radius: 30px;
-  background: #1c1c25;
+  background: var(--bg);
   color: #ffffff;
-  padding: 35px 100px;
+  padding: 35px 85px;
   display: inline-block;
   text-decoration: none;
+  margin: 60px 0;
+  font-size: 19px;
+  transition: 0.25s;
+}
+.click:hover {
+  background-color: var(--hover-bg);
+}
+.click:active {
+}
+
+.click-red {
+  --bg: rgb(223, 91, 91);
+  --hover-bg: rgb(150, 49, 49);
+}
+.click-blue {
+  --bg: rgb(78, 78, 240);
+  --hover-bg: rgb(42, 42, 168);
+}
+
+.click-sm {
+  padding: 25px 75px;
+}
+
+.click-square {
+  border-radius: 0;
 }
